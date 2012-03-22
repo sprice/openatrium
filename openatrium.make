@@ -3,5 +3,6 @@ includes[] = http://drupalcode.org/project/openatrium.git/blob_plain/75e7d662985
 
 ; Contrib
 
+; OA and Panels. Together at last!
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.10"
