@@ -10,6 +10,6 @@ projects[drupal][patch][] = "http://drupalcode.org/project/openatrium.git/blob_p
 
 ; projects[drupal][patch][] = "http://example.com/patch.patch"
 
-projects[buildkit][type] = profile
-projects[buildkit][download][type] = git
-projects[buildkit][download][url] = http://github.com/sprice/openatrium.git
+projects[openatrium][type] = profile
+projects[openatrium][download][type] = git
+projects[openatrium][download][url] = http://github.com/sprice/openatrium.git
