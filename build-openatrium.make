@@ -7,5 +7,5 @@ includes[] = drupal-org-core.make
 ; Download the OpenAtrium Install profile and recursively build all its dependencies:
 projects[openatrium][type] = "profile"
 projects[openatrium][download][type] = "git"
-projects[openatrium][download][url] = "http://git.drupal.org/project/openatrium.git"
-projects[openatrium][download][tag] = "6.x-1.5"
+projects[openatrium][download][url] = "https://github.com/sprice/openatrium.git"
+projects[openatrium][download][branch] = "6.x-1.x"
