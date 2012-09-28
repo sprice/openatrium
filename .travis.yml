@@ -34,7 +34,6 @@ before_script:
   - mv profiles drupal/
   - cd drupal
   - drush make --prepare-install profiles/openatrium/build-openatrium.make --yes
-  - sudo chmod -R 777 sites/all/modules
   - drush si openatrium --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=atrium --site-mail=admin@example.com --site-name="Open Atrium" --yes
   - drush cc all --yes
   - drush en simpletest --yes
