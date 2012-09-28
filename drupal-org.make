@@ -108,6 +108,7 @@ projects[openidadmin][version] = "1.2"
 
 projects[parser_ical][subdir] = "contrib"
 projects[parser_ical][version] = "2.0-beta1"
+projects[parser_ical][patch][] = https://raw.github.com/gist/55e8c3b0ab731c4b7fc9/2ad7c2da2bb40dc09e49b6e59b787f54c1f5aad1/parser_ical_feeds_test_fix.patch
 
 projects[prepopulate][subdir] = "contrib"
 projects[prepopulate][version] = "2.2"
