@@ -163,7 +163,9 @@ projects[simpletest][subdir] = "developer"
 projects[simpletest][version] = "2.11"
 
 ; Features
-projects[atrium_features][version] = "1.3"
+projects[atrium_features][download][type] = "git"
+projects[atrium_features][download][url] = "https://github.com/sprice/atrium_features.git"
+projects[atrium_features][download][branch] = "6.x-1.x"
 
 ; l10n
 projects[l10n_client][subdir] = "l10n"
